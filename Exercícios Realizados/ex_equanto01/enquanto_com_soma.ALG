@@ -16,9 +16,9 @@ Inicio
    leia(x)
 
    enquanto x <> 0 faca
-   soma <- soma + x
-   escreva("Digite outro numero: ")
-   leia(x)
+      soma <- soma + x
+      escreva("Digite outro numero: ")
+      leia(x)
    fimenquanto
 
    escreval("SOMA = ", soma)
