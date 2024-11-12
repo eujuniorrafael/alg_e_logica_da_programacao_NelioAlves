@@ -28,7 +28,7 @@ Inicio
             se x < 0 entao
                escreval("IMPAR NEGATIVO")
             senao
-               escreval("IMPAR NEGATIVO")
+               escreval("IMPAR POSITIVO")
             fimse
          fimse
       fimse
