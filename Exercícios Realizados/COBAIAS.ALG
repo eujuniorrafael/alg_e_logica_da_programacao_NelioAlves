@@ -43,6 +43,8 @@ Inicio
    escreval("Total de coelhos: ", coelho)
    escreval("Total de ratos: ", rato)
    escreval("Total de sapos: ", sapo)
+   escreval("Percentual de coelhos: ", (coelho / qtdTotal) * 100:4:2)
+   
    
 
 
