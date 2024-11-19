@@ -4,7 +4,7 @@ Algoritmo "soma_vetores"
 Var
 
    N, i : inteiro
-   A, B, C : vetor [0..5] de inteiro
+   A, B, C : vetor [0..99] de inteiro
    
 
 Inicio
@@ -14,16 +14,12 @@ Inicio
    
    escreval("Digite os valores do vetor A: ")
    para i de 0 ate N-1 faca
-
         leia(A[i])
-
    fimpara
    
    escreval("Digite os valores do vetor B: ")
    para i de 0 ate N-1 faca
-
         leia(B[i])
-
    fimpara
    
    // VETOR C
