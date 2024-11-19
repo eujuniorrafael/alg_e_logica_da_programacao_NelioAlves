@@ -4,7 +4,7 @@ Algoritmo "soma_vetores"
 Var
 
    N, i : inteiro
-   vet, A, B, C : vetor [0..5] de inteiro
+   A, B, C : vetor [0..5] de inteiro
    
 
 Inicio
