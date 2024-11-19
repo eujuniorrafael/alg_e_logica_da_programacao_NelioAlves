@@ -20,15 +20,17 @@ Inicio
 
    fimpara
    
-   //CÁLCULO DA MÉDIA DO VETOR
-   
-   escreval
-   
+   //SOMA DOS VETORES
+   soma <- 0
    para i de 0 ate N-1 faca
         soma <- soma + vet[i]
-        media <- soma / N
    fimpara
-   escreval("MÉDIA DO VETOR: ", media:4:3)
+   
+   //CÁLCULO DA MÉDIA DO VETOR
+   media <- soma / N // Colocar fora do para
+
+   escreval
+   escreval("MÉDIA DO VETOR: ", media:5:3)
 
    //ELEMENTOS ABAIXO DA MÉDIA
    escreval("ELEMENTOS ABAIXO DA MÉDIA: ")
